@@ -1,0 +1,38 @@
+#Whitelist
+/*
+!/.minecraft
+/.minecraft/*
+
+#repo stuff
+!/.gitignore
+!/.github
+!/docs
+!/runners
+!/LICENSE
+!/README.md
+!/README_EN_US.md
+!/CHANGELOG
+!/icon.png
+!/CODE_OF_CONDUCT.md
+!/CONTRIBUTING.md
+
+#configs
+!/.minecraft/config/
+
+#other stuff
+!/.minecraft/resources
+!/.minecraft/scripts
+
+#pack stuff
+/instance.cfg
+/mmc-pack.json
+!/modlist.html
+!/manifest.json
+!/.minecraft/icon.png
+
+# cs file
+/runners/CurseforgeDownloader/CurseforgeDownloader/bin
+/runners/CurseforgeDownloader/CurseforgeDownloader/obj
+/runners/CurseforgeDownloader/.vs/
+/runners/CurseforgeDownloader/.idea/
+/runners/CurseforgeDownloader/CurseforgeDownloader/obj/project.assets.json
